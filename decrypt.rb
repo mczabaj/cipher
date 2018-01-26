@@ -26,7 +26,6 @@ class Decrypt
     phrase = caesar_cipher.decrypt_str(ct_phrase)
 
     puts "Here is your decrypted phrase:"
-    puts phrase
     phrase
   end
 end

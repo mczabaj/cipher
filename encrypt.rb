@@ -28,7 +28,6 @@ class Encrypt
     ct_phrase = ct_cipher.encrypt_str(caesar_phrase)
 
     puts "Here is your encrypted phrase:"
-    puts ct_phrase
     ct_phrase
   end
 
